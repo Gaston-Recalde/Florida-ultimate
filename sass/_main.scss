@@ -1,0 +1,133 @@
+@use './variables' as v;
+
+.nav{
+    position: fixed;
+    width: 100%;
+    padding: 1.5rem 0;
+    z-index: 2;
+    background-color: v.$red;
+
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1.5rem;
+
+        .nav__logo{
+            width: 100px;
+            height: auto;
+    
+            a{
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        .nav__link{
+            display: none;
+            position: fixed;
+            top: 5.5rem;
+            width: 90%;
+            background-color: v.$lime-green;
+            margin: 0 auto;
+            border-radius: 0.5rem;
+    
+            .nav__ul{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 1.5rem;
+                padding: 1.7rem;
+                margin: 0 auto;
+                
+                .nav__li{
+                    padding: .25rem 0;
+    
+                    a{
+                        color: v.$white;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                    }
+                }
+    
+            }
+        }
+
+        .nav__toggle{
+            font-size: 32px;
+            color: v.$white;
+        
+            .nav__hamburger{
+                display: inline-block;
+                // width: 1.6rem;
+            }
+    
+            .nav__close{
+                display: none;
+            }
+        }
+    }
+}
+
+// @media screen and (min-width: 768px) {
+//     .nav{
+//         &__link{
+//             margin: 0 -5%;
+//         }
+//     }
+// }
+
+// @media screen and (min-width: 1024px) {
+//     .nav{
+    
+//         &__container{
+//             align-items: center;
+//         }
+
+//         &__toggle{
+//             display: none;
+
+//             .nav__close{
+//                 display: none;
+//             }
+        
+//             .nav__hamburger{
+//                 display: none;
+//             }
+//         }
+    
+//         &__link{
+//             display: flex !important;
+//             position: inherit;
+//             width: max-content;
+    
+//             .nav__ul{
+//                 flex-direction: row;
+//                 padding: 0;
+                
+//                 .nav__li{
+    
+//                     a{
+//                         color: v.$grayish-blue;
+//                         font-weight: 700;
+//                     }
+
+//                     a:hover{
+//                         color: v.$dark-blue;
+//                     }
+//                 }
+
+//                 .nav__li:hover{
+//                     border-bottom: 3px solid v.$lime-green;
+//                 }
+//             }
+//         }
+    
+//         &__button{
+//             display: inline-block;
+//             width: fit-content;
+//         }
+//     }
+// }
