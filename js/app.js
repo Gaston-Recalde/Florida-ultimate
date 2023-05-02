@@ -23,3 +23,16 @@ if(window.innerWidth < 1024){
         });
     });
 };
+
+// Funcion para mostrar solo un limite de caracteres en la descripcion de las noticias (card)
+const textos = document.querySelectorAll('.noticia__p');
+textos.forEach(longuitud => {
+    const limiteCaracteres = 200;
+    const text = longuitud.textContent;
+
+    if (text.length > limiteCaracteres) {
+      const textoRecortado = text.slice(0, limiteCaracteres) + '...';
+      longuitud.textContent = textoRecortado;
+    }
+
+});
