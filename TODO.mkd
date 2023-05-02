@@ -1,0 +1,36 @@
+# Que hace en la página
+
+## Hoja de clinica
+- Agregar el contenido de la noticia
+- Agregar la foto donde estan todos con la bandera en el header
+- Agregar algunas fotos de la actividad
+- Colocar un botón al final para regresar al inicio o a la parte del index donde se encontraba la noticia
+
+## Index
+- Terminar con el estilo de la pagina
+- Verificar el tamaño de las noticias
+- Estilos finales de las noticias y responsive
+
+## Ultimate Frisbee
+- Empezar con la creación final de los textos introductorios
+- Darle estilos a la pagina
+- Colocar alguna imagen para rellenar la pagina
+- Header con una foto de la liga
+- No agregar imagenes ni mucho texto, que sea una seccion introductoria con lo basico
+
+## LUFF
+- Estilos de la pagina en general
+- Textos introductorios mas explicativos
+- Header con una imagen de la LUFF
+- Generar una tabla con los resultados finales posiciones, pg pp y dg
+- Generar tabla o pequeña seccion con los mvps momentaños, masculino y femenino, asi como otro con los goleadores, asistentes y defensas
+- Pensar en un cascaron con la informacion del Apertura y el Clausura
+- Pequeña seccion con la primera edicion
+
+## Hats
+- Buscar informacion sobre las ediciones pasadas del Hata Piedra Alta
+- Crear cascaron con la informacion de las ediciones asi como informacion relevante de las mismas
+- Hat Espiritu, cascaron pero aun sin agregar nada
+
+## Otra pagina/s
+- Pensar en hacer o no en agregar paginas con los equipos de ultimate que estan formados y son de florida, Fenix, El Rejunte?
