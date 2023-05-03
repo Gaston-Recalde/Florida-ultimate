@@ -159,11 +159,25 @@
 }
 
 .main {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px 25px;
   text-align: center;
+  max-width: 1200px;
+  margin: auto;
 }
 .main__h1 {
   font-size: 36px;
   margin-bottom: 35px;
+}
+.main .article {
+  text-align: left;
+  margin-bottom: 50px;
+}
+.main .article__title {
+  margin-bottom: 25px;
+}
+.main .article__p {
+  font-size: 16px;
+}
+.main .article__p span {
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */

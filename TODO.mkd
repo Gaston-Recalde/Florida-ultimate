@@ -1,15 +1,15 @@
 # Que hace en la página
 
 ## Index
-- Terminar con el estilo de la pagina
-- Verificar el tamaño de las noticias
+- Terminar con el estilo de la pagina (LISTO)
+- Verificar el tamaño de las noticias (LISTO)
 - Corregir el tamaño de las imagenes en las card de las noticias, que no sean tan grandes como en las 
-imagenes de muestra
-- Estilos finales de las noticias y responsive.
+imagenes de muestra (LISTO a medias)
+- Estilos finales de las noticias y responsive. (LISTO)
 
 ## Ultimate Frisbee
-- Empezar con la creación final de los textos introductorios
-- Darle estilos a la pagina
+- Empezar con la creación final de los textos introductorios (Creado reglas basicas)
+- Darle estilos a la pagina (basicos)
 - Colocar alguna imagen para rellenar la pagina
 - Header con una foto de la liga(quitar la que esta por defecto)
 - No agregar imagenes ni mucho texto, que sea una seccion introductoria con lo basico
