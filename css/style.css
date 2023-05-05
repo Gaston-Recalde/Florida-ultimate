@@ -183,12 +183,17 @@
 }
 
 .luff #tabla-equipos {
-  max-width: 1200px;
+  width: 350px;
   margin: auto;
 }
-.luff #tabla-equipos thead tr .equipo, .luff #tabla-equipos thead tr .integrante {
-  width: 150px;
+.luff #tabla-equipos tbody .equipo {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
-.luff #tabla-equipos tbody tr td {
-  width: 150px;
+
+.defensa, .asistencia, .gol {
+  text-align: center;
+  padding: 5px 0;
 }/*# sourceMappingURL=style.css.map */

@@ -1,38 +1,27 @@
 .luff{
 
     #tabla-equipos{
-        max-width: 1200px;
+        width: 350px;
         margin: auto;
 
         thead{
 
-            tr{
-                // width: 350px;
-                // display: flex;
-                // justify-content: space-between;
-                // flex-grow: 1;
-
-                // &:nth-child(2){
-                //     flex-grow: 2;
-                // }
-
-                .equipo, .integrante{
-                    width: 150px;
-                }
-            }
-
-            th{
-
-            }
         }
 
         tbody{
-            tr{
-                // margin: 15px 0;
-                td{
-                    width: 150px;
-                }
+
+            .equipo{
+                font-size: 20px;
+                font-weight: bold;
+                padding-top: 15px;
+                padding-bottom: 15px;
             }
         }
     }
+}
+
+
+.defensa, .asistencia, .gol{
+    text-align: center;
+    padding: 5px 0;
 }
