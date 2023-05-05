@@ -180,4 +180,15 @@
 }
 .main .article__p span {
   font-weight: bold;
+}
+
+.luff #tabla-equipos {
+  max-width: 1200px;
+  margin: auto;
+}
+.luff #tabla-equipos thead tr .equipo, .luff #tabla-equipos thead tr .integrante {
+  width: 150px;
+}
+.luff #tabla-equipos tbody tr td {
+  width: 150px;
 }/*# sourceMappingURL=style.css.map */

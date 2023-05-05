@@ -1,0 +1,324 @@
+{
+    "equipos": [
+       {
+          "nombre": "El Rejunte",
+          "integrantes": [
+             {
+                "nombre": "Gaston Corujo",
+                "goles": 0,
+                "asistencias": 0,
+                "defensas": 0
+             },
+             {
+                "nombre": "Alejandro Garandan",
+                "goles": 0,
+                "asistencias": 0,
+                "defensas": 0
+             },
+             {
+                "nombre": "Sebastián Fernández",
+                "goles": 0,
+                "asistencias": 0,
+                "defensas": 0
+             },
+             {
+                "nombre": "Romina Silvera",
+                "goles": 0,
+                "asistencias": 0,
+                "defensas": 0
+             },
+             {
+                "nombre": "Victoria Falero",
+                "goles": 0,
+                "asistencias": 0,
+                "defensas": 0
+             },
+             {
+                "nombre": "Martin Silva",
+                "goles": 0,
+                "asistencias": 0,
+                "defensas": 0
+             },
+             {
+                "nombre": "Gastón Recalde",
+                "goles": 0,
+                "asistencias": 0,
+                "defensas": 0
+             },
+             {
+                "nombre": "Johathan Bosque",
+                "goles": 0,
+                "asistencias": 0,
+                "defensas": 0
+             },
+             {
+                "nombre": "Emanuel Muniz",
+                "goles": 0,
+                "asistencias": 0,
+                "defensas": 0
+             }
+          ]
+       },
+       {
+        "nombre": "Maori",
+        "integrantes": [
+           {
+              "nombre": "Fisher Ocampo",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Giorgia Calvo",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Luis Moreira",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Constanza dos Santos",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Juan Álvarez",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "John Lorenzo",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Valentina Silvestre",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Tamir Scocozza",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Leandro Rodríguez",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Axel Peña",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           }
+        ]
+     },
+     {
+        "nombre": "Mano Pelada",
+        "integrantes": [
+           {
+              "nombre": "Gerardo Dávila",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Guillermina Vignoli",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Germán Corujo",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Maicon Sánchez",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Felipe Quintana",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Ihara Peña",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Joaquín Regusci",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Marcos Budes",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Sebastián Núñez",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Valentina Toledo",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           }
+        ]
+     },
+     {
+        "nombre": "Shining Shadows",
+        "integrantes": [
+           {
+              "nombre": "Gabriel Fernández",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Luis Dávila",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Mateo Rodríguez",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Tomas Lacuesta",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Karen Bustelo",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Micaela González",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Scott Fernández",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Brian González",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Gerónimo Fernández",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Axel Cabral",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           }
+        ]
+     },
+     {
+        "nombre": "Guerreros",
+        "integrantes": [
+           {
+              "nombre": "Alan Cáceres",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Layla Arrúa",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Axel Cuello",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Lucas Arevalo",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Silvia Díaz",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Martina Bares",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Gonzalo Lorier",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Benjamin Rodríguez",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Juan Viscailuz",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           },
+           {
+              "nombre": "Iliana Moreira",
+              "goles": 0,
+              "asistencias": 0,
+              "defensas": 0
+           }
+        ]
+     }
+    ]
+ }
+ 

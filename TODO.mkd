@@ -22,7 +22,7 @@ imagenes de muestra (LISTO a medias)
 
 ## Hoja de clinica
 - Agregar el contenido de la noticia
-- Agregar la foto donde estan todos con la bandera en el header
+- Agregar la foto donde estan todos con la bandera en el header (LISTO)
 - Agregar algunas fotos de la actividad
 - Colocar un botón al final para regresar al inicio o a la parte del index donde se encontraba la noticia
 
@@ -30,7 +30,7 @@ imagenes de muestra (LISTO a medias)
 - Estilos de la pagina en general
 - Textos introductorios mas explicativos
 - Header con una imagen de la LUFF
-- Generar una tabla con los resultados finales posiciones, pg pp y dg
+- Generar una tabla con los resultados finales posiciones, pg pp y dg (json y js creados, modificar y rehacer js para la tabla)
 - Generar tabla o pequeña seccion con los mvps momentaños, masculino y femenino, asi como otro con los goleadores, asistentes y defensas
 - Pensar en un cascaron con la informacion del Apertura y el Clausura
 - Pequeña seccion con la primera edicion
