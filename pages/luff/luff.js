@@ -1,27 +1,32 @@
-// cargar datos desde el archivo JSON
+const contenedorTablas = document.getElementById('tablas');
 fetch('dataEquipos.json')
   .then(response => response.json())
   .then(data => {
-    // obtener el elemento del tbody
-    const tbody = document.getElementById('tabla-equipos').getElementsByTagName('tbody')[0];
-    
-    // recorrer los equipos
     data.equipos.forEach(equipo => {
-      // crear fila para el nombre del equipo
-      const filaEquipo = document.createElement('tr');
-      const celdaEquipo = document.createElement('td');
+      // crear la tabla del equipo
+      const tabla = document.createElement('table');
+      const encabezado = document.createElement('thead');
+      const filaEncabezado = document.createElement('tr');
+      const celdaEquipo = document.createElement('th');
+      const celdaGoles = document.createElement('th');
+      const celdaAsistencias = document.createElement('th');
+      const celdaDefensas = document.createElement('th');
       celdaEquipo.textContent = equipo.nombre;
-      filaEquipo.appendChild(celdaEquipo);
-      tbody.appendChild(filaEquipo);
-      celdaEquipo.classList.add('equipo');
-      
-      // recorrer los integrantes
+      celdaGoles.textContent = 'Goles';
+      celdaAsistencias.textContent = 'Asistencias';
+      celdaDefensas.textContent = 'Defensas';
+      // celdaEquipo.colSpan = 4;
+      filaEncabezado.appendChild(celdaEquipo);
+      filaEncabezado.appendChild(celdaGoles);
+      filaEncabezado.appendChild(celdaAsistencias);
+      filaEncabezado.appendChild(celdaDefensas);
+      // filaEncabezado.appendChild(celdaEquipo);
+      encabezado.appendChild(filaEncabezado);
+
+      const cuerpo = document.createElement('tbody');
       equipo.integrantes.forEach(integrante => {
         // crear fila para el integrante
         const filaIntegrante = document.createElement('tr');
-        tbody.appendChild(filaIntegrante);
-        
-        // crear celdas para el nombre, goles, asistencias y defensas
         const celdaNombre = document.createElement('td');
         celdaNombre.textContent = integrante.nombre;
         filaIntegrante.appendChild(celdaNombre);
@@ -30,7 +35,7 @@ fetch('dataEquipos.json')
         celdaGoles.textContent = integrante.goles;
         filaIntegrante.appendChild(celdaGoles);
         celdaGoles.classList.add('gol');
-        
+
         const celdaAsistencias = document.createElement('td');
         celdaAsistencias.textContent = integrante.asistencias;
         filaIntegrante.appendChild(celdaAsistencias);
@@ -40,9 +45,11 @@ fetch('dataEquipos.json')
         celdaDefensas.textContent = integrante.defensas;
         filaIntegrante.appendChild(celdaDefensas);
         celdaDefensas.classList.add('defensa');
+        cuerpo.appendChild(filaIntegrante);
+
       });
+      tabla.appendChild(encabezado);
+      tabla.appendChild(cuerpo);
+      contenedorTablas.appendChild(tabla);
     });
-  })
-  .catch(error => {
-    console.error('Error al cargar los datos:', error);
   });

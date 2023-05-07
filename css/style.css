@@ -182,18 +182,28 @@
   font-weight: bold;
 }
 
-.luff #tabla-equipos {
-  width: 350px;
-  margin: auto;
+#contenedor-tablas h3 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 15px;
 }
-.luff #tabla-equipos tbody .equipo {
-  font-size: 20px;
-  font-weight: bold;
-  padding-top: 15px;
-  padding-bottom: 15px;
+#contenedor-tablas #tablas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+#contenedor-tablas #tablas table {
+  width: 350px;
+}
+#contenedor-tablas #tablas table thead {
+  font-size: 18px;
+}
+#contenedor-tablas #tablas table:last-child {
+  margin-bottom: 25px;
 }
 
 .defensa, .asistencia, .gol {
   text-align: center;
-  padding: 5px 0;
 }/*# sourceMappingURL=style.css.map */

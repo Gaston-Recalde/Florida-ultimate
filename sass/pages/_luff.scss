@@ -1,27 +1,31 @@
-.luff{
+#contenedor-tablas{
+    h3{
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
 
-    #tabla-equipos{
-        width: 350px;
-        margin: auto;
+    #tablas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
 
-        thead{
+        table{
+            width: 350px;
+            thead{
+                font-size: 18px;
+            }
 
-        }
-
-        tbody{
-
-            .equipo{
-                font-size: 20px;
-                font-weight: bold;
-                padding-top: 15px;
-                padding-bottom: 15px;
+            &:last-child{
+                margin-bottom: 25px;
             }
         }
     }
 }
 
-
 .defensa, .asistencia, .gol{
     text-align: center;
-    padding: 5px 0;
+    // padding: 5px 0;
 }
