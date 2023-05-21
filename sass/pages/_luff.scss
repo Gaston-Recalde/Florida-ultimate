@@ -29,3 +29,50 @@
     text-align: center;
     // padding: 5px 0;
 }
+
+.main{
+
+    // &__h1{
+
+    // }
+
+    &__article{
+        text-align: left;
+        margin-bottom: 25px;
+
+        .article__h2{
+            margin-bottom: 15px;
+        }
+    }
+
+    &__section{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: space-evenly;
+
+        .section__article{
+            // width: 90%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            max-width: 500px;
+            border-radius: 8px;
+            // padding: 10px 0 0 0;
+
+            a{
+                color: black;
+                // text-decoration: none;
+
+                .article__h2{
+                    padding: 15px 0;
+                }
+
+                .article__img{
+
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

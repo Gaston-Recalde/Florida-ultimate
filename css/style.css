@@ -206,4 +206,32 @@
 
 .defensa, .asistencia, .gol {
   text-align: center;
+}
+
+.main__article {
+  text-align: left;
+  margin-bottom: 25px;
+}
+.main__article .article__h2 {
+  margin-bottom: 15px;
+}
+.main__section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: space-evenly;
+}
+.main__section .section__article {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 500px;
+  border-radius: 8px;
+}
+.main__section .section__article a {
+  color: black;
+}
+.main__section .section__article a .article__h2 {
+  padding: 15px 0;
+}
+.main__section .section__article a .article__img img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
