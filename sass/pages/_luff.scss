@@ -110,6 +110,12 @@
                 }
 
                 .article__img{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    overflow: hidden;
+                    min-height: 140px;
+                    max-height: 220px;
 
                     img{
                         width: 100%;
