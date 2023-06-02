@@ -1,3 +1,26 @@
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .table__equipos{
+        width: 100%;
+        max-width: 450px;
+
+        thead{
+            font-size: 18px;
+        }
+
+        tbody{
+            td{
+                padding: 8px;
+            }
+        }
+    }
+}
+
+
 #contenedor-tablas{
     h3{
         text-align: center;
@@ -13,13 +36,23 @@
         gap: 25px;
 
         table{
-            width: 350px;
+            width: 90%;
+            max-width: 450px;
+
             thead{
                 font-size: 18px;
             }
 
             &:last-child{
                 margin-bottom: 25px;
+            }
+
+            tbody{
+                tr{
+                    td{
+                        padding: 8px;
+                    }
+                }
             }
         }
     }
@@ -32,9 +65,19 @@
 
 .main{
 
-    // &__h1{
+    .article__main{
 
-    // }
+        .table__equipos{
+            // margin: auto;
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+          
+
+    }
 
     &__article{
         text-align: left;

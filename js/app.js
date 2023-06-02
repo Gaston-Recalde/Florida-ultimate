@@ -45,8 +45,14 @@ closeNavBtn.addEventListener('click', closeNav);
 openNavBtn.addEventListener('click', openNav);
 document.addEventListener('click', handleClickOutsideMenu);
 
+// const drop = document.querySelector('.nav__li-luff');
+// const arrowUp = document.querySelector('.luff-open');
+// const arrowDown = document.querySelector('.luff-close');
 
-
+// drop.addEventListener('click', () => {
+//     arrowUp.style.display = 'none';
+//     arrowDown.style.display = 'inline-block'
+// });
 
 // Funcion para mostrar solo un limite de caracteres en la descripcion de las noticias (card)
 const textos = document.querySelectorAll('.noticia__p');
