@@ -8,17 +8,55 @@
         width: 100%;
         max-width: 450px;
 
-        thead{
-            font-size: 18px;
-        }
+        
 
-        tbody{
-            td{
-                padding: 8px;
-            }
-        }
+        // thead{
+        //     font-size: 16px;
+        // }
+
+        // tbody{
+        //     font-size: 14px;
+
+        //     td{
+        //         padding: 8px;
+        //     }
+        // }
     }
 }
+
+.contenedor {
+    width: 100%;
+  }
+  
+  .table__equipos {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table__equipos thead th,
+  .table__equipos tbody th {
+    text-align: center;
+  }
+  
+  .table__equipos tbody td {
+    text-align: center;
+  }
+  
+  .table__equipos thead th {
+    vertical-align: middle;
+  }
+  
+  .table__equipos tbody td {
+    vertical-align: middle;
+  }
+  
+  .table__equipos th,
+  .table__equipos td {
+    padding: 10px;
+    border: 1px solid black;
+  }
+
+
 
 
 #contenedor-tablas{
@@ -36,11 +74,11 @@
         gap: 25px;
 
         table{
-            width: 90%;
+            width: 94%;
             max-width: 450px;
 
             thead{
-                font-size: 18px;
+                font-size: 16px;
             }
 
             &:last-child{
@@ -48,6 +86,8 @@
             }
 
             tbody{
+                font-size: 14px;
+                
                 tr{
                     td{
                         padding: 8px;
@@ -68,12 +108,12 @@
     .article__main{
 
         .table__equipos{
-            // margin: auto;
+            margin: auto;
             margin-top: 50px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            // display: flex;
+            // flex-direction: column;
+            // justify-content: center;
+            // align-items: center;
         }
           
 

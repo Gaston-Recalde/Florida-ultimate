@@ -210,11 +210,37 @@
   width: 100%;
   max-width: 450px;
 }
-.contenedor .table__equipos thead {
-  font-size: 18px;
+
+.contenedor {
+  width: 100%;
 }
-.contenedor .table__equipos tbody td {
-  padding: 8px;
+
+.table__equipos {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table__equipos thead th,
+.table__equipos tbody th {
+  text-align: center;
+}
+
+.table__equipos tbody td {
+  text-align: center;
+}
+
+.table__equipos thead th {
+  vertical-align: middle;
+}
+
+.table__equipos tbody td {
+  vertical-align: middle;
+}
+
+.table__equipos th,
+.table__equipos td {
+  padding: 10px;
+  border: 1px solid black;
 }
 
 #contenedor-tablas h3 {
@@ -230,14 +256,17 @@
   gap: 25px;
 }
 #contenedor-tablas #tablas table {
-  width: 90%;
+  width: 94%;
   max-width: 450px;
 }
 #contenedor-tablas #tablas table thead {
-  font-size: 18px;
+  font-size: 16px;
 }
 #contenedor-tablas #tablas table:last-child {
   margin-bottom: 25px;
+}
+#contenedor-tablas #tablas table tbody {
+  font-size: 14px;
 }
 #contenedor-tablas #tablas table tbody tr td {
   padding: 8px;
@@ -248,11 +277,8 @@
 }
 
 .main .article__main .table__equipos {
+  margin: auto;
   margin-top: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 .main__article {
   text-align: left;
