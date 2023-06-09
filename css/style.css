@@ -87,6 +87,7 @@
   flex-wrap: wrap;
   gap: 50px;
   justify-content: space-evenly;
+  margin-top: 50px;
 }
 .main__section .section__article {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -177,6 +178,12 @@
 }
 .main .article__title {
   margin-bottom: 25px;
+}
+.main .article__img {
+  width: 100%;
+}
+.main .article__img img {
+  width: 100%;
 }
 .main .article__p {
   font-size: 16px;
