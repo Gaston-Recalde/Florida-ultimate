@@ -10,7 +10,7 @@
 .nav {
   position: fixed;
   width: 100%;
-  padding: 1.5rem 0;
+  padding: 1rem 0;
   z-index: 2;
   background-color: #d32929;
 }
@@ -64,27 +64,6 @@
   display: none;
 }
 
-.swiper {
-  width: 100%;
-  height: 500px;
-  padding-top: 86px;
-}
-.swiper .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.swiper .swiper-slide .swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 .main {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -94,47 +73,44 @@
   font-size: 36px;
   margin-bottom: 35px;
 }
-.main__noticias {
+.main__p {
+  font-size: 16px;
+  max-width: 500px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+.main__p span {
+  font-weight: bold;
+}
+.main__section {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   gap: 50px;
+  justify-content: space-evenly;
 }
-.main__noticias .noticia {
-  position: relative;
-  width: 350px;
-  height: -moz-fit-content;
-  height: fit-content;
-  padding: 24px 16px 48px;
-  border-radius: 8px;
+.main__section .section__article {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  overflow: hidden;
-}
-.main__noticias .noticia img {
-  position: absolute;
-  width: 100%;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}
-.main__noticias .noticia__h2 {
-  margin-top: 240px;
-  margin-bottom: 15px;
-}
-.main__noticias .noticia__p {
-  margin-bottom: 15px;
-}
-.main__noticias .noticia .noticia__button {
-  position: absolute;
-  right: 16px;
-  padding: 8px;
+  max-width: 500px;
   border-radius: 8px;
-  background-color: #d32929;
-  border: none;
 }
-.main__noticias .noticia .noticia__button a {
-  color: white;
+.main__section .section__article a {
+  text-align: center;
+  color: black;
+}
+.main__section .section__article a .article__h2 {
+  padding: 15px 0;
+}
+.main__section .section__article a .article__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  min-height: 140px;
+  max-height: 220px;
+  border-radius: 0px 0px 8px 8px;
+}
+.main__section .section__article a .article__img img {
+  width: 100%;
 }
 
 .footer {
@@ -144,7 +120,10 @@
 .footer__container {
   text-align: center;
 }
-.footer__container i {
+.footer__container a {
+  color: black;
+}
+.footer__container a i {
   font-size: 32px;
   margin-bottom: 8px;
 }
@@ -171,10 +150,15 @@
   }
 }
 .header {
-  padding-top: 85px;
+  padding-top: 63px;
 }
 .header__container img {
   width: 100%;
+  max-height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 .main {
@@ -202,43 +186,28 @@
 }
 
 .contenedor {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
 }
 .contenedor .table__equipos {
   width: 100%;
   max-width: 450px;
-}
-
-.contenedor {
-  width: 100%;
-}
-
-.table__equipos {
-  width: 100%;
   border-collapse: collapse;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-.table__equipos thead th,
-.table__equipos tbody th {
+.contenedor .table__equipos thead th {
   text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+  border: 1px solid black;
 }
-
-.table__equipos tbody td {
+.contenedor .table__equipos tbody td {
   text-align: center;
-}
-
-.table__equipos thead th {
   vertical-align: middle;
+  padding: 10px;
+  border: 1px solid black;
 }
-
-.table__equipos tbody td {
-  vertical-align: middle;
-}
-
-.table__equipos th,
-.table__equipos td {
+.contenedor .table__equipos tbody th {
+  text-align: center;
   padding: 10px;
   border: 1px solid black;
 }
@@ -258,9 +227,15 @@
 #contenedor-tablas #tablas table {
   width: 94%;
   max-width: 450px;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #contenedor-tablas #tablas table thead {
   font-size: 16px;
+}
+#contenedor-tablas #tablas table thead tr th {
+  padding: 8px;
+  border: 1px solid black;
 }
 #contenedor-tablas #tablas table:last-child {
   margin-bottom: 25px;
@@ -270,6 +245,7 @@
 }
 #contenedor-tablas #tablas table tbody tr td {
   padding: 8px;
+  border: 1px solid black;
 }
 
 .defensa, .asistencia, .gol {

@@ -1,63 +1,38 @@
 
 .contenedor{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
 
     .table__equipos{
         width: 100%;
         max-width: 450px;
+        border-collapse: collapse;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-        
+        thead{
+            th{
+                text-align: center;
+                vertical-align: middle;
+                padding: 10px;
+                border: 1px solid black;
+            }
+        }
 
-        // thead{
-        //     font-size: 16px;
-        // }
+        tbody{
+            td{
+                text-align: center;
+                vertical-align: middle;
+                padding: 10px;
+                border: 1px solid black;
+            }
 
-        // tbody{
-        //     font-size: 14px;
-
-        //     td{
-        //         padding: 8px;
-        //     }
-        // }
+            th{
+                text-align: center;
+                padding: 10px;
+                border: 1px solid black;
+            }
+        }
     }
 }
-
-.contenedor {
-    width: 100%;
-  }
-  
-  .table__equipos {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  .table__equipos thead th,
-  .table__equipos tbody th {
-    text-align: center;
-  }
-  
-  .table__equipos tbody td {
-    text-align: center;
-  }
-  
-  .table__equipos thead th {
-    vertical-align: middle;
-  }
-  
-  .table__equipos tbody td {
-    vertical-align: middle;
-  }
-  
-  .table__equipos th,
-  .table__equipos td {
-    padding: 10px;
-    border: 1px solid black;
-  }
-
-
-
 
 #contenedor-tablas{
     h3{
@@ -76,9 +51,18 @@
         table{
             width: 94%;
             max-width: 450px;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
             thead{
                 font-size: 16px;
+
+                tr{
+                    th{
+                        padding: 8px;
+                        border: 1px solid black;
+                    }
+                }
             }
 
             &:last-child{
@@ -91,6 +75,7 @@
                 tr{
                     td{
                         padding: 8px;
+                        border: 1px solid black;
                     }
                 }
             }
@@ -100,7 +85,6 @@
 
 .defensa, .asistencia, .gol{
     text-align: center;
-    // padding: 5px 0;
 }
 
 .main{
@@ -110,10 +94,6 @@
         .table__equipos{
             margin: auto;
             margin-top: 50px;
-            // display: flex;
-            // flex-direction: column;
-            // justify-content: center;
-            // align-items: center;
         }
           
 
@@ -135,15 +115,12 @@
         justify-content: space-evenly;
 
         .section__article{
-            // width: 90%;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             max-width: 500px;
             border-radius: 8px;
-            // padding: 10px 0 0 0;
 
             a{
                 color: black;
-                // text-decoration: none;
 
                 .article__h2{
                     padding: 15px 0;
