@@ -97,10 +97,12 @@
         gap: 50px;
         justify-content: space-evenly;
         margin-top: 50px;
+        margin-bottom: 50px;
 
         .section__article{
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            max-width: 500px;
+            // max-width: 500px;
+            max-width: 350px;
             border-radius: 8px;
     
             a{
@@ -124,57 +126,59 @@
                         width: 100%;
                     }
                 }
+
             }
         }
     }
 
-    // &__noticias{
-    //     display: flex;
-    //     justify-content: center;
-    //     flex-wrap: wrap;
-    //     gap: 50px;
+    &__noticias{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 50px;
 
-    //     .noticia{
-    //         position: relative;
-    //         width: 350px;
-    //         height: fit-content;
-    //         padding: 24px 16px 48px;
-    //         border-radius: 8px;
-    //         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    //         overflow: hidden;
+        .noticia{
+            position: relative;
+            width: 350px;
+            // max-width: 500px;
+            height: fit-content;
+            padding: 24px 16px 48px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            overflow: hidden;
 
-    //         img{
-    //             position: absolute;
-    //             width: 100%;
-    //             left: 0;
-    //             right: 0;
-    //             top: 0;
-    //             bottom: 0;
-    //         }
+            img{
+                position: absolute;
+                width: 100%;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+            }
 
-    //         &__h2{
-    //             margin-top: 240px;
-    //             margin-bottom: 15px;
-    //         }
+            &__h2{
+                margin-top: 240px;
+                margin-bottom: 15px;
+            }
 
-    //         &__p{
-    //             margin-bottom: 15px;
-    //         }
+            &__p{
+                margin-bottom: 15px;
+            }
 
-    //         .noticia__button{
-    //             position: absolute;
-    //             right: 16px;
-    //             padding: 8px;
-    //             border-radius: 8px;
-    //             background-color: v.$red;
-    //             border: none;
+            .noticia__button{
+                position: absolute;
+                right: 16px;
+                padding: 8px;
+                border-radius: 8px;
+                background-color: v.$red;
+                border: none;
 
-    //             a{
-    //                 color: white;
-    //             }
-    //         }
-    //     }
-    // }
+                a{
+                    color: white;
+                }
+            }
+        }
+    }
 }
 
 .footer{

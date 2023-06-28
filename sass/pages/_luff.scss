@@ -54,8 +54,13 @@
             border-collapse: collapse;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+            // border-radius: 8px;
+
             thead{
                 font-size: 16px;
+
+                background-color: black;
+                color: white;
 
                 tr{
                     th{
@@ -116,7 +121,7 @@
 
         .section__article{
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            max-width: 500px;
+            max-width: 350px;
             border-radius: 8px;
 
             a{
