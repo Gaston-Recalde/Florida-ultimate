@@ -274,6 +274,11 @@
   align-items: center;
   gap: 25px;
 }
+#contenedor-tablas #tablas img {
+  width: 94%;
+  max-width: 450px;
+  margin: auto;
+}
 #contenedor-tablas #tablas table {
   width: 94%;
   max-width: 450px;

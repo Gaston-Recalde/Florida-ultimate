@@ -2,6 +2,7 @@
     "equipos": [
        {
           "nombre": "El Rejunte",
+          "imagen": "/assets/LUFF/ElRejunte.jpeg",
           "integrantes": [
              {
                 "nombre": "Gaston Corujo",
