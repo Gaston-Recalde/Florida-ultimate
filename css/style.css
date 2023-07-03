@@ -320,6 +320,26 @@
 .main__article .article__h2 {
   margin-bottom: 15px;
 }
+.main__article .equipos {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  text-align: center;
+  justify-content: center;
+}
+.main__article .equipos .equipo {
+  max-width: 720px;
+  margin: auto;
+}
+.main__article .equipos .equipo h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.main__article .equipos .equipo img {
+  width: 100%;
+  border-radius: 16px;
+}
 .main__section {
   display: flex;
   flex-wrap: wrap;

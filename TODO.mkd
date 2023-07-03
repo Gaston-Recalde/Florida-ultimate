@@ -48,3 +48,8 @@ imagenes de muestra (LISTO a medias)
 
 ## Otra pagina/s
 - Pensar en hacer o no en agregar paginas con los equipos de ultimate que estan formados y son de florida, Fenix, El Rejunte?
+
+## Página HATS
+- Crear hojas y rutas para piedra alta y espiritu
+- Agragar piedra alta con fotos, lugar fecha y n° de participantes
+- Espiritu pedir info foto y demas a Maicol.

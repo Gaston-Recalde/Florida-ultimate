@@ -12,10 +12,10 @@ fetch('dataEquipos.json')
       contenedorTablas.appendChild(tituloEquipo);
 
       // Agregar imagen del equipo
-      const imagenEquipo = document.createElement('img');
+      // const imagenEquipo = document.createElement('img');
       // Suponiendo que en el JSON cada equipo tiene una propiedad "imagen" con la URL de la imagen correspondiente
-      imagenEquipo.src = equipo.imagen; // Reemplazar "equipo.imagen" con la propiedad correcta del JSON
-      contenedorTablas.appendChild(imagenEquipo);
+      // imagenEquipo.src = equipo.imagen; // Reemplazar "equipo.imagen" con la propiedad correcta del JSON
+      // contenedorTablas.appendChild(imagenEquipo);
 
       const encabezado = document.createElement('thead');
       const filaEncabezado = document.createElement('tr');
